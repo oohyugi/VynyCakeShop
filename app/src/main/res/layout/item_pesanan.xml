@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/item"
+    android:layout_margin="5dp"
+  >
+    <RelativeLayout
+        android:orientation="vertical" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <TextView
+
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Pesanan"
+
+            android:textStyle="bold"
+            android:layout_marginBottom="3dp"
+            />
+        <TextView
+            android:layout_toRightOf="@+id/tv1"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/nama_pesanan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nama_pesanan"
+
+            android:textStyle="bold"
+            android:layout_marginBottom="3dp"/>
+
+
+
+
+
+        <TextView
+
+            android:id="@+id/tv3"
+            android:layout_below="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harga"
+
+            android:textStyle="bold"
+            android:layout_marginBottom="3dp"
+            />
+        <TextView
+            android:id="@+id/harga_pesanan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="harga"
+
+            android:textStyle="bold"
+            android:layout_below="@+id/nama_pesanan"
+            android:layout_alignLeft="@+id/nama_pesanan"
+            android:layout_marginBottom="3dp"
+            android:layout_alignStart="@+id/nama_pesanan"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hapus"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+           android:elevation="0dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:src="@drawable/ic_delete_grey600_24dp"
+            android:backgroundTint="@android:color/white"
+
+            android:scaleType="fitXY"
+            android:layout_alignParentRight="true"/>
+
+
+
+    </RelativeLayout>
+</RelativeLayout>

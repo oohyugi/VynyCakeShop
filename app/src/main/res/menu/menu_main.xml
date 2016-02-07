@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.yogiputra.vynycakeshop.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Profil"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/shoppingCart"
+        android:icon="@drawable/ic_shopping_cart_white_24dp"
+        android:title="Cart"
+        app:showAsAction="ifRoom"/>
+</menu>
